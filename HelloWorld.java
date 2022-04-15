@@ -25,7 +25,17 @@ public class HelloWorld {
       }
       for(Customer cust : listOfCustomers)
       {
+          System.out.println("****************************");
           System.out.println(cust.toString());
+          System.out.println("****************************");
       }
+      for(Customer cust : listOfCustomers)
+      {
+          if(cust.getCustomerName().equals("Francis"))
+          {
+              System.out.println("Fired");
+          }
+      }
+      System.out.println("End of Program");
     }
 }
