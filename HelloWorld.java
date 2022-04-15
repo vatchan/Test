@@ -27,5 +27,6 @@ public class HelloWorld {
       {
           System.out.println(cust.toString());
       }
+      System.out.println("End of the Program");
     }
 }
