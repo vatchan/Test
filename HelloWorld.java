@@ -27,5 +27,13 @@ public class HelloWorld {
       {
           System.out.println(cust.toString());
       }
+      System.out.println("End of the Program");
+      for(Customer cust : listOfCustomers)
+      {
+          if(cust.getCustomerName().equals("Francis"))
+          {
+              System.out.println("Fired");
+          }
+      }
     }
 }
