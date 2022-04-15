@@ -25,7 +25,9 @@ public class HelloWorld {
       }
       for(Customer cust : listOfCustomers)
       {
+          System.out.println("****************************");
           System.out.println(cust.toString());
+          System.out.println("****************************");
       }
       System.out.println("End of the Program");
     }
